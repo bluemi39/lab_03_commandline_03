@@ -94,6 +94,219 @@ curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/lab
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
+tar -xvf mtec1002-lab-03.tar.gz
+x mtec1002-lab-03/
+x mtec1002-lab-03/._.DS_Store
+x mtec1002-lab-03/.DS_Store
+x mtec1002-lab-03/books/
+x mtec1002-lab-03/logs/
+x mtec1002-lab-03/web/
+x mtec1002-lab-03/web/about.html
+x mtec1002-lab-03/web/css/
+x mtec1002-lab-03/web/img/
+x mtec1002-lab-03/web/index.html
+x mtec1002-lab-03/web/img/otters-1.jpg
+x mtec1002-lab-03/web/img/otters-2.jpg
+x mtec1002-lab-03/web/img/otters-3.jpg
+x mtec1002-lab-03/web/img/otters-4.jpg
+x mtec1002-lab-03/web/img/otters-5.jpg
+x mtec1002-lab-03/web/css/screen.css
+x mtec1002-lab-03/logs/._.DS_Store
+x mtec1002-lab-03/logs/.DS_Store
+x mtec1002-lab-03/logs/access-0.log
+x mtec1002-lab-03/logs/access-1.log
+x mtec1002-lab-03/logs/access-10.log
+x mtec1002-lab-03/logs/access-11.log
+x mtec1002-lab-03/logs/access-111.log
+x mtec1002-lab-03/logs/access-112.log
+x mtec1002-lab-03/logs/access-113.log
+x mtec1002-lab-03/logs/access-114.log
+x mtec1002-lab-03/logs/access-115.log
+x mtec1002-lab-03/logs/access-12.log
+x mtec1002-lab-03/logs/access-122.log
+x mtec1002-lab-03/logs/access-13.log
+x mtec1002-lab-03/logs/access-14.log
+x mtec1002-lab-03/logs/access-15.log
+x mtec1002-lab-03/logs/access-150.log
+x mtec1002-lab-03/logs/access-151.log
+x mtec1002-lab-03/logs/access-152.log
+x mtec1002-lab-03/logs/access-158.log
+x mtec1002-lab-03/logs/access-159.log
+x mtec1002-lab-03/logs/access-16.log
+x mtec1002-lab-03/logs/access-160.log
+x mtec1002-lab-03/logs/access-161.log
+x mtec1002-lab-03/logs/access-162.log
+x mtec1002-lab-03/logs/access-163.log
+x mtec1002-lab-03/logs/access-164.log
+x mtec1002-lab-03/logs/access-166.log
+x mtec1002-lab-03/logs/access-167.log
+x mtec1002-lab-03/logs/access-168.log
+x mtec1002-lab-03/logs/access-17.log
+x mtec1002-lab-03/logs/access-170.log
+x mtec1002-lab-03/logs/access-172.log
+x mtec1002-lab-03/logs/access-174.log
+x mtec1002-lab-03/logs/access-175.log
+x mtec1002-lab-03/logs/access-176.log
+x mtec1002-lab-03/logs/access-177.log
+x mtec1002-lab-03/logs/access-178.log
+x mtec1002-lab-03/logs/access-179.log
+x mtec1002-lab-03/logs/access-18.log
+x mtec1002-lab-03/logs/access-180.log
+x mtec1002-lab-03/logs/access-182.log
+x mtec1002-lab-03/logs/access-183.log
+x mtec1002-lab-03/logs/access-186.log
+x mtec1002-lab-03/logs/access-187.log
+x mtec1002-lab-03/logs/access-189.log
+x mtec1002-lab-03/logs/access-19.log
+x mtec1002-lab-03/logs/access-191.log
+x mtec1002-lab-03/logs/access-192.log
+x mtec1002-lab-03/logs/access-2.log
+x mtec1002-lab-03/logs/access-20.log
+x mtec1002-lab-03/logs/access-204.log
+x mtec1002-lab-03/logs/access-205.log
+x mtec1002-lab-03/logs/access-207.log
+x mtec1002-lab-03/logs/access-208.log
+x mtec1002-lab-03/logs/access-209.log
+x mtec1002-lab-03/logs/access-21.log
+x mtec1002-lab-03/logs/access-210.log
+x mtec1002-lab-03/logs/access-211.log
+x mtec1002-lab-03/logs/access-213.log
+x mtec1002-lab-03/logs/access-22.log
+x mtec1002-lab-03/logs/access-23.log
+x mtec1002-lab-03/logs/access-24.log
+x mtec1002-lab-03/logs/access-25.log
+x mtec1002-lab-03/logs/access-251.log
+x mtec1002-lab-03/logs/access-252.log
+x mtec1002-lab-03/logs/access-253.log
+x mtec1002-lab-03/logs/access-254.log
+x mtec1002-lab-03/logs/access-255.log
+x mtec1002-lab-03/logs/access-256.log
+x mtec1002-lab-03/logs/access-257.log
+x mtec1002-lab-03/logs/access-258.log
+x mtec1002-lab-03/logs/access-26.log
+x mtec1002-lab-03/logs/access-27.log
+x mtec1002-lab-03/logs/access-28.log
+x mtec1002-lab-03/logs/access-29.log
+x mtec1002-lab-03/logs/access-3.log
+x mtec1002-lab-03/logs/access-30.log
+x mtec1002-lab-03/logs/access-31.log
+x mtec1002-lab-03/logs/access-32.log
+x mtec1002-lab-03/logs/access-33.log
+x mtec1002-lab-03/logs/access-34.log
+x mtec1002-lab-03/logs/access-35.log
+x mtec1002-lab-03/logs/access-36.log
+x mtec1002-lab-03/logs/access-37.log
+x mtec1002-lab-03/logs/access-38.log
+x mtec1002-lab-03/logs/access-39.log
+x mtec1002-lab-03/logs/access-4.log
+x mtec1002-lab-03/logs/access-40.log
+x mtec1002-lab-03/logs/access-41.log
+x mtec1002-lab-03/logs/access-42.log
+x mtec1002-lab-03/logs/access-43.log
+x mtec1002-lab-03/logs/access-44.log
+x mtec1002-lab-03/logs/access-45.log
+x mtec1002-lab-03/logs/access-46.log
+x mtec1002-lab-03/logs/access-47.log
+x mtec1002-lab-03/logs/access-48.log
+x mtec1002-lab-03/logs/access-49.log
+x mtec1002-lab-03/logs/access-5.log
+x mtec1002-lab-03/logs/access-50.log
+x mtec1002-lab-03/logs/access-52.log
+x mtec1002-lab-03/logs/access-53.log
+x mtec1002-lab-03/logs/access-56.log
+x mtec1002-lab-03/logs/access-57.log
+x mtec1002-lab-03/logs/access-58.log
+x mtec1002-lab-03/logs/access-6.log
+x mtec1002-lab-03/logs/access-60.log
+x mtec1002-lab-03/logs/access-62.log
+x mtec1002-lab-03/logs/access-63.log
+x mtec1002-lab-03/logs/access-65.log
+x mtec1002-lab-03/logs/access-68.log
+x mtec1002-lab-03/logs/access-69.log
+x mtec1002-lab-03/logs/access-7.log
+x mtec1002-lab-03/logs/access-70.log
+x mtec1002-lab-03/logs/access-72.log
+x mtec1002-lab-03/logs/access-73.log
+x mtec1002-lab-03/logs/access-74.log
+x mtec1002-lab-03/logs/access-76.log
+x mtec1002-lab-03/logs/access-78.log
+x mtec1002-lab-03/logs/access-8.log
+x mtec1002-lab-03/logs/access-81.log
+x mtec1002-lab-03/logs/access-83.log
+x mtec1002-lab-03/logs/access-89.log
+x mtec1002-lab-03/logs/access-9.log
+x mtec1002-lab-03/logs/access-90.log
+x mtec1002-lab-03/logs/access-91.log
+x mtec1002-lab-03/logs/access-93.log
+x mtec1002-lab-03/logs/archived/
+x mtec1002-lab-03/logs/archived/access-100.log
+x mtec1002-lab-03/logs/archived/access-101.log
+x mtec1002-lab-03/logs/archived/access-102.log
+x mtec1002-lab-03/logs/archived/access-104.log
+x mtec1002-lab-03/logs/archived/access-105.log
+x mtec1002-lab-03/logs/archived/access-106.log
+x mtec1002-lab-03/logs/archived/access-107.log
+x mtec1002-lab-03/logs/archived/access-108.log
+x mtec1002-lab-03/logs/archived/access-109.log
+x mtec1002-lab-03/logs/archived/access-110.log
+x mtec1002-lab-03/logs/archived/access-116.log
+x mtec1002-lab-03/logs/archived/access-117.log
+x mtec1002-lab-03/logs/archived/access-118.log
+x mtec1002-lab-03/logs/archived/access-119.log
+x mtec1002-lab-03/logs/archived/access-120.log
+x mtec1002-lab-03/logs/archived/access-121.log
+x mtec1002-lab-03/logs/archived/access-153.log
+x mtec1002-lab-03/logs/archived/access-154.log
+x mtec1002-lab-03/logs/archived/access-155.log
+x mtec1002-lab-03/logs/archived/access-156.log
+x mtec1002-lab-03/logs/archived/access-157.log
+x mtec1002-lab-03/logs/archived/access-165.log
+x mtec1002-lab-03/logs/archived/access-171.log
+x mtec1002-lab-03/logs/archived/access-173.log
+x mtec1002-lab-03/logs/archived/access-181.log
+x mtec1002-lab-03/logs/archived/access-184.log
+x mtec1002-lab-03/logs/archived/access-185.log
+x mtec1002-lab-03/logs/archived/access-188.log
+x mtec1002-lab-03/logs/archived/access-190.log
+x mtec1002-lab-03/logs/archived/access-193.log
+x mtec1002-lab-03/logs/archived/access-194.log
+x mtec1002-lab-03/logs/archived/access-195.log
+x mtec1002-lab-03/logs/archived/access-196.log
+x mtec1002-lab-03/logs/archived/access-197.log
+x mtec1002-lab-03/logs/archived/access-198.log
+x mtec1002-lab-03/logs/archived/access-199.log
+x mtec1002-lab-03/logs/archived/access-200.log
+x mtec1002-lab-03/logs/archived/access-201.log
+x mtec1002-lab-03/logs/archived/access-203.log
+x mtec1002-lab-03/logs/archived/access-206.log
+x mtec1002-lab-03/logs/archived/access-212.log
+x mtec1002-lab-03/logs/archived/access-214.log
+x mtec1002-lab-03/logs/archived/access-215.log
+x mtec1002-lab-03/logs/archived/access-54.log
+x mtec1002-lab-03/logs/archived/access-55.log
+x mtec1002-lab-03/logs/archived/access-59.log
+x mtec1002-lab-03/logs/archived/access-64.log
+x mtec1002-lab-03/logs/archived/access-71.log
+x mtec1002-lab-03/logs/archived/access-75.log
+x mtec1002-lab-03/logs/archived/access-77.log
+x mtec1002-lab-03/logs/archived/access-79.log
+x mtec1002-lab-03/logs/archived/access-80.log
+x mtec1002-lab-03/logs/archived/access-82.log
+x mtec1002-lab-03/logs/archived/access-84.log
+x mtec1002-lab-03/logs/archived/access-92.log
+x mtec1002-lab-03/logs/archived/access-94.log
+x mtec1002-lab-03/logs/archived/access-95.log
+x mtec1002-lab-03/logs/archived/access-97.log
+x mtec1002-lab-03/logs/archived/access-98.log
+x mtec1002-lab-03/logs/archived/access-99.log
+x mtec1002-lab-03/books/other/
+x mtec1002-lab-03/books/science-fiction/
+x mtec1002-lab-03/books/science-fiction/pg84.txt
+x mtec1002-lab-03/books/science-fiction/pg86.txt
+x mtec1002-lab-03/books/other/pg1232.txt
+
+
+
 
 
 ==========
@@ -108,6 +321,44 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+ls -l
+total 6520
+-rw-rw-rw-   1 student  staff      976 Jan  9 16:12 AMALogger20190109.log
+drwxr-x---   2 student  staff       68 Aug 22  2016 Adlm
+drwxr-xr-x   3 student  staff      102 Aug 22  2016 Adobe
+drwxr-xr-x   4 student  staff      136 Aug 22  2016 Applications
+drwx------   8 student  staff      272 Feb 11 11:31 Desktop
+drwx------+ 27 student  staff      918 Feb 11 11:36 Documents
+drwx------+  5 student  staff      170 Feb 11 16:39 Downloads
+drwxr-xr-x   2 student  staff       68 Jan 28 16:43 Elijah-MTEC1003
+drwx------@ 74 student  staff     2516 Feb  7 16:10 Library
+drwxr-xr-x   2 student  staff       68 Aug 22  2016 MPLABXProjects
+drwx------   8 student  staff      272 Jan 17  2017 Movies
+drwx------   8 student  staff      272 Aug 22  2016 Music
+drwxr-xr-x   7 student  staff      238 Jan  9 16:26 New Unity Project
+drwx------   6 student  staff      204 Aug  9  2017 Pictures
+drwxr-xr-x   3 student  staff      102 Jan 31 18:48 Pizza
+drwxr-xr-x   5 student  staff      170 Aug 22  2016 Public
+drwxr-xr-x@  3 student  staff      102 Aug  9  2017 QLData
+drwxr-xr-x   5 student  staff      170 Aug 22  2016 Things
+drwxr-xr-x   3 student  staff      102 Feb  7 18:54 Users
+-rw-r--r--   1 student  staff      824 Jan 17  2017 ipe.properties
+drwxr-xr-x   3 student  staff      102 Aug 22  2016 isus
+-rw-r--r--@  1 student  staff     1300 Feb  7 18:17 jack.jpeg
+-rw-r--r--@  1 student  staff  1689366 Feb  7 18:19 jack.png
+drwxr-xr-x   5 student  staff      170 Feb  7 18:52 memes
+-rw-r--r--@  1 student  staff    11943 Feb  7 18:53 memes.zip
+-rw-r--r--@  1 student  staff     1300 Feb  7 18:15 minecraft.png
+-rw-r--r--@  1 student  staff     1300 Feb  7 18:14 minecrft.jpeg
+drwxr-xr-x@  6 student  staff      204 Feb 11 16:39 mtec1002-lab-03
+-rw-r--r--@  1 student  staff   919584 Feb 11 16:39 mtec1002-lab-03.tar.gz
+drwxr-xr-x   3 student  staff      102 Feb  7 18:10 my-stuff
+-rw-r--r--@  1 student  staff   576603 Feb  7 18:21 pods.png
+-rw-r--r--   1 student  staff        0 Jan 17  2018 pymel.log
+-rw-r--r--@  1 student  staff   114222 Feb  7 18:31 white.jpg
+drwxr-xr-x   2 student  staff       68 Aug 22  2016 xgen
+
+
 
 
 
