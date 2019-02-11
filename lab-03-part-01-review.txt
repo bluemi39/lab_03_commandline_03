@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+cd ;
 
 
 ==========
@@ -24,13 +24,29 @@ Write the command that you used to do this below:
 Write the command that you used to do this - as well as its output - below :
 ----------
 
-
+pwd
 
 ==========
 3. Are there any directories or files in your directory that have the word mtec1002 in it?
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+ls
+
+AMALogger20190109.log	Music			jack.png
+Adlm			New Unity Project	memes
+Adobe			Pictures		memes.zip
+Applications		Pizza			minecraft.png
+Desktop			Public			minecrft.jpeg
+Documents		QLData			my-stuff
+Downloads		Things			pods.png
+Elijah-MTEC1003		Users			pymel.log
+Library			ipe.properties		white.jpg
+MPLABXProjects		isus			xgen
+Movies			jack.jpeg
+
+
+
 
 
 
@@ -65,6 +81,10 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
+curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   4564      0 --:--:-- --:--:-- --:--:--  4564
 
 
 
