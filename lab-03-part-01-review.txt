@@ -25,6 +25,8 @@ Write the command that you used to do this - as well as its output - below :
 ----------
 
 pwd
+/Users/Guest
+
 
 ==========
 3. Are there any directories or files in your directory that have the word mtec1002 in it?
@@ -33,17 +35,9 @@ Write the command(s) that you used to determine this - as well as its output - b
 ----------
 ls
 
-AMALogger20190109.log	Music			jack.png
-Adlm			New Unity Project	memes
-Adobe			Pictures		memes.zip
-Applications		Pizza			minecraft.png
-Desktop			Public			minecrft.jpeg
-Documents		QLData			my-stuff
-Downloads		Things			pods.png
-Elijah-MTEC1003		Users			pymel.log
-Library			ipe.properties		white.jpg
-MPLABXProjects		isus			xgen
-Movies			jack.jpeg
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	mtec1002
+
 
 
 
@@ -54,7 +48,8 @@ Movies			jack.jpeg
 4. If there are directories or files in your home directory that have the word mtec1002 in them, list them below (otherwise skip this step):
 ----------
 
-
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	mtec1002
 
 ==========
 5. Delete these directories from your home folder by using this command:
@@ -68,7 +63,7 @@ $ rm -rf mtec1002-labs-02
 (skip if these directories don't exist)
 ----------
 
-
+"Directorie deleted"
 
 ==========
 6.  A compressed archive (.tar.gz) of the lab files can be found at this url: 
@@ -321,44 +316,12 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-ls -l
-total 6520
--rw-rw-rw-   1 student  staff      976 Jan  9 16:12 AMALogger20190109.log
-drwxr-x---   2 student  staff       68 Aug 22  2016 Adlm
-drwxr-xr-x   3 student  staff      102 Aug 22  2016 Adobe
-drwxr-xr-x   4 student  staff      136 Aug 22  2016 Applications
-drwx------   8 student  staff      272 Feb 11 11:31 Desktop
-drwx------+ 27 student  staff      918 Feb 11 11:36 Documents
-drwx------+  5 student  staff      170 Feb 11 16:39 Downloads
-drwxr-xr-x   2 student  staff       68 Jan 28 16:43 Elijah-MTEC1003
-drwx------@ 74 student  staff     2516 Feb  7 16:10 Library
-drwxr-xr-x   2 student  staff       68 Aug 22  2016 MPLABXProjects
-drwx------   8 student  staff      272 Jan 17  2017 Movies
-drwx------   8 student  staff      272 Aug 22  2016 Music
-drwxr-xr-x   7 student  staff      238 Jan  9 16:26 New Unity Project
-drwx------   6 student  staff      204 Aug  9  2017 Pictures
-drwxr-xr-x   3 student  staff      102 Jan 31 18:48 Pizza
-drwxr-xr-x   5 student  staff      170 Aug 22  2016 Public
-drwxr-xr-x@  3 student  staff      102 Aug  9  2017 QLData
-drwxr-xr-x   5 student  staff      170 Aug 22  2016 Things
-drwxr-xr-x   3 student  staff      102 Feb  7 18:54 Users
--rw-r--r--   1 student  staff      824 Jan 17  2017 ipe.properties
-drwxr-xr-x   3 student  staff      102 Aug 22  2016 isus
--rw-r--r--@  1 student  staff     1300 Feb  7 18:17 jack.jpeg
--rw-r--r--@  1 student  staff  1689366 Feb  7 18:19 jack.png
-drwxr-xr-x   5 student  staff      170 Feb  7 18:52 memes
--rw-r--r--@  1 student  staff    11943 Feb  7 18:53 memes.zip
--rw-r--r--@  1 student  staff     1300 Feb  7 18:15 minecraft.png
--rw-r--r--@  1 student  staff     1300 Feb  7 18:14 minecrft.jpeg
-drwxr-xr-x@  6 student  staff      204 Feb 11 16:39 mtec1002-lab-03
--rw-r--r--@  1 student  staff   919584 Feb 11 16:39 mtec1002-lab-03.tar.gz
-drwxr-xr-x   3 student  staff      102 Feb  7 18:10 my-stuff
--rw-r--r--@  1 student  staff   576603 Feb  7 18:21 pods.png
--rw-r--r--   1 student  staff        0 Jan 17  2018 pymel.log
--rw-r--r--@  1 student  staff   114222 Feb  7 18:31 white.jpg
-drwxr-xr-x   2 student  staff       68 Aug 22  2016 xgen
 
-
+ls
+Applications		Library			Public
+Desktop			Movies			mtec1002-lab-03
+Documents		Music			mtec1002-lab-03.tar.gz
+Downloads		Pictures
 
 
 
@@ -367,17 +330,22 @@ drwxr-xr-x   2 student  staff       68 Aug 22  2016 xgen
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+cd /Users/Guest/mtec1002-lab-03
+mtec1002-lab-03 Guest$
 
-
+ls
+books	logs	web
 
 ==========
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1002-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
+cd ../
+rodrigos-MacBook-Pro:~ Guest$ 
 
-
-
+cd /Users/Guest/mtec1002-lab-03/books/science-fiction
+science-fiction Guest$ 
 ==========
 11.  Write the files that are in the science fiction directory below.
 
@@ -385,12 +353,19 @@ Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
 
+ls
+pg84.txt	pg86.txt
+
 
 ==========
 12.  Again, go back to your home directory.  Now... go to the science-fiction directory using an absolute path!  Verify that you're in the right directory using pwd.
 
 Write the command(s) that you used to do this below:
 ----------
+
+ cd ../../..
+ 
+cd /Users/Guest/mtec1002-lab-03/books/science-fiction
 
 ==========
 OPTIONAL
