@@ -63,7 +63,7 @@ $ rm -rf mtec1002-labs-02
 (skip if these directories don't exist)
 ----------
 
-"Directorie deleted"
+"Directory deleted"
 
 ==========
 6.  A compressed archive (.tar.gz) of the lab files can be found at this url: 
