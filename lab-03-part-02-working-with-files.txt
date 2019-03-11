@@ -113,6 +113,8 @@ rmdir: my_files: Directory not empty
 
 Write out the command that you used and what happened.
 ----------
+$ rm my_files
+rm: my_files: is a directory
 
 
 
@@ -124,7 +126,7 @@ Force the removal of the directory and files using the -rf flag
 $ rm -rf my_files
 ----------
 
-
+[no output]
 
 ==========
 16. There's a txt file version of a book located in the mtec1002-lab-03 folder.  It is in the following directory if you're in the lab folder:
@@ -135,7 +137,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+it open the text file within terminal.
 
 
 ==========
@@ -147,8 +149,9 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+$ head /Users/student/mtec1002-lab-03/books/other/pg1232.txt
 
-
+Title: The Prince
 
 ==========
 18. Using the same file again!
