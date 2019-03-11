@@ -32,20 +32,18 @@ Follow the instructions line-by-line.
 ==========
 6. Create a new file using touch.
 
-$ touch foo.txt
-$ ls
+
 Copy and paste the output below.
 ----------
-
-
-
+$ touch foo.txt
+[no output]
 ==========
 7. Create another new file using touch.
 
-$ touch bar.txt
+
 ----------
-
-
+$ touch bar.txt
+[no output]
 
 ==========
 8. List the files in this directory using the flag that gives the most details.
@@ -53,7 +51,10 @@ $ touch bar.txt
 Copy and paste the output below.
 ----------
 
-
+total 0
+drwxr-xr-x@   4 student  staff   136 Feb 13  2013 books
+drwxr-xr-x@ 129 student  staff  4386 Feb 11 16:39 logs
+drwxr-xr-x@   6 student  staff   204 Feb 13  2013 web
 
 ==========
 9. Create a copy of bar.txt called baz.txt and then list the files again.
@@ -61,8 +62,11 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
+$ cp bar.txt baz.txt
+[no output]
 
-
+$ ls
+bar.txt	baz.txt	foo.txt
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
@@ -70,6 +74,8 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
 ==========
+
+
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
