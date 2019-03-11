@@ -162,6 +162,8 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+$ tail /Users/student/mtec1002-lab-03/books/other/pg1232.txt
+subscribe to our email newsletter to hear about new eBooks.
 
 
 
@@ -174,7 +176,9 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
+$ more /Users/student/mtec1002-lab-03/books/other/pg1232.txt
 
+[space bar seems to move the position of the text, and q just let's you get back in writing a command.]
 
 
 ==========
@@ -182,15 +186,21 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
+situations I will use this comands are when; If I want to see the top part of a text I can use head, if I want to see the bottom of a text I will use tail, if I want to see whole text then I use cat, if I want to see it in a page by page style then I can use less or more.
 
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+$ wc /Users/student/mtec1002-lab-03/books/other/pg1232.txt
+    5063   52639  305864 /Users/student/mtec1002-lab-03/books/other/pg1232.txt
+[there 52639 words.]
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+$ wc /Users/student/mtec1002-lab-03/books/other/pg1232.txt
+    5063   52639  305864 /Users/student/mtec1002-lab-03/books/other/pg1232.txt
+    
+    [there are 5063 lines.]
