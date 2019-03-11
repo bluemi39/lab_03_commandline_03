@@ -73,6 +73,12 @@ bar.txt	baz.txt	foo.txt
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+$ rm bar.txt
+[no output]
+
+$ ls
+baz.txt	foo.txt
+
 ==========
 
 
@@ -81,8 +87,11 @@ Write the command that you used to remove the file.  Copy and paste the output o
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
+$ mv foo.txt qux.txt
+[no output]
 
-
+$ ls
+baz.txt	qux.txt
 
 ==========
 12. Go up one directory so that you're in ~/mtec1002-lab-03.
@@ -96,8 +105,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
-
-
+$ rmdir my_files
+rmdir: my_files: Directory not empty
 
 ==========
 14. Try removing the directory called my_files using rm.
